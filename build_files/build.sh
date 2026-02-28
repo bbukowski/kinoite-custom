@@ -35,5 +35,5 @@ dnf5 remove -y \
 
 # systemctl enable podman.socket
 
-systemct mask rpm-ostree-countme.timer
+systemctl mask rpm-ostree-countme.timer
 
