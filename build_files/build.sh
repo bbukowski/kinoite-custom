@@ -18,7 +18,8 @@ dnf5 install -y \
     distrobox \
     stow \
     ksshaskpass \
-    colordiff
+    colordiff \
+    iotop
 
 dnf5 remove -y \
     firefox \
