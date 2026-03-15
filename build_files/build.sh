@@ -19,11 +19,15 @@ dnf5 install -y \
     stow \
     ksshaskpass \
     colordiff \
-    iotop
+    iotop \
+    distrobox
+    plasma-login-manager \
+    kcm-plasmalogin
 
 dnf5 remove -y \
     firefox \
-    firefox-langpacks
+    firefox-langpacks \
+    sddm
 
 # Use a COPR Example:
 #
@@ -37,4 +41,5 @@ dnf5 remove -y \
 # systemctl enable podman.socket
 
 systemctl mask rpm-ostree-countme.timer
+systemctl enable --force plasmalogin.service
 
