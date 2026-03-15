@@ -20,7 +20,7 @@ dnf5 install -y \
     ksshaskpass \
     colordiff \
     iotop \
-    distrobox
+    distrobox \
     plasma-login-manager \
     kcm-plasmalogin
 
