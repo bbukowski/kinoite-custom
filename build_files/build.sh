@@ -22,12 +22,14 @@ dnf5 install -y \
     iotop \
     distrobox \
     plasma-login-manager \
-    kcm-plasmalogin
+    kcm-plasmalogin \
+    kup-backup
 
 dnf5 remove -y \
     firefox \
     firefox-langpacks \
-    sddm
+    sddm \
+    kwrite
 
 # Use a COPR Example:
 #
