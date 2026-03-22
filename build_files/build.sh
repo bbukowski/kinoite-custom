@@ -21,6 +21,7 @@ dnf5 install -y \
     colordiff \
     iotop \
     distrobox \
+    powertop \
     plasma-login-manager \
     kcm-plasmalogin \
     kup-backup
