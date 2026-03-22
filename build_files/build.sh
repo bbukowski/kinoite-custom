@@ -44,5 +44,6 @@ dnf5 remove -y \
 # systemctl enable podman.socket
 
 systemctl mask rpm-ostree-countme.timer
+systemctl mask ModemManager.service
 systemctl enable --force plasmalogin.service
 
