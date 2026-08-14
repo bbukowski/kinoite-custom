@@ -12,7 +12,6 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y \
     tmux \
-    neovim \
     ripgrep \
     fd-find \
     distrobox \
@@ -24,7 +23,8 @@ dnf5 install -y \
     powertop \
     plasma-login-manager \
     kcm-plasmalogin \
-    kup-backup
+    kup-backup \
+    crun-krun
 
 dnf5 remove -y \
     firefox \
